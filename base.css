@@ -1,16 +1,161 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	scroll-behavior: smooth;
+}
+body {
+	font-family: 'Ma Shan Zheng', cursive;
+	font-family: 'Montserrat Subrayada', sans-serif;
+	font-family: 'Baloo Bhai', cursive;
+	font-family: 'Permanent Marker', cursive;
+	font-family: 'Archivo Black', sans-serif;
+}
+
+nav {
+	background-color: darkslategray;
+	border-bottom: 1px solid grey;
+	height: 60px;
+	position: fixed;
+	width: 100vw;
+}
+
+section {
+	height: 100vh;
+}
+
+section h2 {
+	text-align: center;
+	padding-top: 40px;
+}
+.container {
+	width: 960px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav-logo {
+	display: flex;
+	align-items: center;
+	height: 60px;
+	margin: right 10px;
+}
+
+.nav-logo img {
+	height: 40px;
+}
+
+.nav-logo a {
+	margin-left: 10px;
+	color: white;
+	text-decoration: none;
+}
+
+.nav-links {
+	align-items: center;
+	display: flex;
+}
+
+.nav-links a {
+	margin-left: 10px;
+	color: white;
+	text-decoration: none;
+}
+
+.b-style {
+	background-color: grey;
+}
+
+.social-links {
+	margin-top: 30px;
+	color: blue;
+	display: flex;
+}
+
+.social-links div {
+	width: 50px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.social-links div a i {
+	font-size: 50px;
+	margin: 0 6px;
+}
+
+.social-link {
+	transition: all 0.3s;
+}
+
+.social-link:hover {
+	transform: translateY(-10px);
+	color: white;
+}
+
+#Home {
+	background: seashell;
+}
+
+#Home h2 {
+	font-family: 'Times New Roman', Times, serif;
+	color: #808080;
+	padding-top: 90px;
+
+	font-size: 20px;
+	text-align: center;
+}
+
+#Projects h1 {
+	margin-bottom: 10px;
+	margin-top: 50px;
+}
+
+#Loan-Application {
+	background: seashell;
+	padding-top: 30px;
+}
+#Loan-Calculator {
+	background-color: seashell;
+	padding-top: 30px;
+}
+#Contact {
+	background: seashell;
+	padding-top: 30px;
+}
+
 h1 {
-	color: rgb(52, 114, 231);
+	font-family: 'Cinzel', serif;
+	padding-top: 300px;
+	color: #678a74;
 	text-align: center;
 	font-size: 100px;
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
-		'Helvetica Neue', sans-serif;
 }
 
-body {
-	background: whitesmoke;
+.apply-btn {
+	background-color: #4caf50; /* Green */
+
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 24px;
+	border-radius: 20px;
 }
 
-div {
+.btn-box {
 	align-content: center;
 	text-align: center;
+}
+
+h2 {
+	color: #678a74;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+		'Helvetica Neue', sans-serif;
+	font-size: 50px;
 }
