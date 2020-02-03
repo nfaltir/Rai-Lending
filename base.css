@@ -160,3 +160,32 @@ h2 {
 		'Helvetica Neue', sans-serif;
 	font-size: 50px;
 }
+
+.loan-policy {
+	border: 10px solid #bdc3c7;
+	padding: 20px;
+	max-width: 900px;
+	width: 80%;
+	margin: 10px auto;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.post {
+	margin-bottom: 20px;
+}
+
+.loan-title {
+	font-size: 30px;
+	color: #678a74;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.btn-start-loan {
+	text-align: center;
+	font-size: 2em;
+}
+
+button:hover {
+	background-color: #678a74;
+}
