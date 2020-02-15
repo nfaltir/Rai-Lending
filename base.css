@@ -167,6 +167,7 @@ h2 {
 
 .post {
 	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 .loan-title {
@@ -182,7 +183,7 @@ h2 {
 }
 
 button:hover {
-	background-color: #678a74;
+	background-color: blue;
 }
 
 .btn {
