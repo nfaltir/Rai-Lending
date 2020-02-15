@@ -119,7 +119,7 @@ section h2 {
 	padding-top: 30px;
 }
 #Contact {
-	background: seashell;
+	background-color: black;
 	padding-top: 30px;
 }
 
@@ -255,4 +255,8 @@ button:hover {
 	text-align: center;
 	margin: auto;
 	padding-top: 200px;
+}
+
+.contact-title {
+	color: blanchedalmond;
 }
