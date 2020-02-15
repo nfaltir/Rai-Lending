@@ -260,3 +260,19 @@ button:hover {
 .contact-title {
 	color: blanchedalmond;
 }
+
+.feedback-btn {
+	font-size: xx-large;
+}
+
+.feedback-button {
+	align-items: center;
+
+	text-align: center;
+
+	padding-top: 80px;
+}
+
+.feedback-btn:hover {
+	background-color: yellow;
+}
