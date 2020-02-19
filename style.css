@@ -12,7 +12,7 @@ html {
 
 #content {
 	text-align: center;
-	padding-top: 30%;
+	padding-top: 35%;
 	color: #6e5773;
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
@@ -21,7 +21,7 @@ html {
 
 #content > h1 {
 	font-family: 'Candal', sans-serif;
-	color: #6699cc;
+	color: #21243d;
 	font-size: 5em;
 }
 
