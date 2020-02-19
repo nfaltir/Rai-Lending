@@ -1,5 +1,5 @@
 body {
-	background: url(https://images.unsplash.com/photo-1579621970588-a35d0e7ab9b6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
+	background: url(https://images.unsplash.com/photo-1504204267155-aaad8e81290d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
 	background-size: cover;
 	background-position: center;
 
@@ -12,7 +12,7 @@ html {
 
 #content {
 	text-align: center;
-	padding-top: 25%;
+	padding-top: 30%;
 	color: #6e5773;
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
@@ -20,9 +20,9 @@ html {
 }
 
 #content > h1 {
-	font-weight: 700;
-	font-family: Lato;
-	color: white;
+	font-family: 'Candal', sans-serif;
+	color: #6699cc;
+	font-size: 5em;
 }
 
 #content > h3 {
@@ -31,7 +31,7 @@ html {
 
 hr {
 	width: 500px;
-	border-top: 1px solid #f8f8f8;
+	border-top: 1px solid #5b8c5a;
 	border-bottom: 1px solid rgb(0, 0, 0.2);
 	text-shadow: 0px 4px 3px red;
 }
