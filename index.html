@@ -4,136 +4,81 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Rai Lending X</title>
-  <link href="https://fonts.googleapis.com/css?family=Cinzel|Fredericka+the+Great|Press+Start+2P&display=swap">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css"
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-
-  <!-- apply style to href tags -->
-  <link rel="stylesheet" type="text/css" href="./base.css">
+  <title>Landing Page</title>
 </head>
 
-<body class="b-style">
-  <nav>
+<body>
+
+  <nav class="navbar navbar-inverse">
     <div class="container">
-      <div class="nav-logo">
-        <img src="">
-        <a href="https://github.com/nfaltir" target="_blank">Rai Lendng</a>
+      <!--delete fluid, force nav bar into container--->
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+          data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Rai Lending</a>
       </div>
-      <div class="nav-links" />
-      <a href="#Home">Home</a>
-      <a href="#Loan-Application">Loan Application</a>
-      <a href="#Loan-Calculator">Loan Calculator</a>
-      <a href="#Contact">Contact</a>
-    </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+              aria-expanded="false">Resources <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Loan Calculator</a></li>
+              <li><a href="#">Mission</a></li>
+              <li><a href="#">Careers</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">White Paper</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Sign Up <i class="fa fa-user-plus"></i></a></li>
+          <li><a href="#">Login <i class="fa fa-user"></i></a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
   </nav>
-
-  <main>
-    <section id="Home">
-
-      <h1><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/223/seedling_1f331.png"
-          srcset="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/google/223/seedling_1f331.png 2x"
-          alt="Seedling on Google Android 10.0" width="120" height="120">
-        Rai Lending
-        <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/223/seedling_1f331.png"
-          srcset="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/google/223/seedling_1f331.png 2x"
-          alt="Seedling on Google Android 10.0" width="120" height="120">
-      </h1>
-
-
-
-      <div class="btn-box">
-        <form method="GET" action="#Loan-Application">
-          <button class="apply-btn">Apply Here</button>
-        </form>
-
-      </div>
-
-    </section>
-
-    <section id="Loan-Application">
-
-
-      <h2>Loan Application</h2>
-      <div class="loan-policy">
-        <p class="loan-title">Terms and Conditions</p>
-        <div class="loan-app-title">
-          <p class="post">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero aut modi omnis beatae, ipsam
-            ipsum ad eos
-            magni quidem quod ipsa deserunt aperiam minima aliquam animi sed, dolor, veritatis dolores. Lorem ipsum
-            dolor
-            sit amet consectetur adipisicing elit. Error consequatur alias beatae molestias omnis labore nisi, commodi
-            explicabo vel laborum dignissimos dolores placeat harum deleniti ex nemo asperiores autem illum. Lorem ipsum
-            dolor sit, amet consectetur adipisicing elit. Non fuga voluptatem architecto reiciendis pariatur hic laborum
-            sint labore recusandae quia! Dolorum ex minus iusto reiciendis ratione enim voluptatum adipisci id.</p>
-
-          <p class="post">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero aut modi omnis beatae, ipsam
-            ipsum ad eos
-            magni quidem quod ipsa deserunt aperiam minima aliquam animi sed, dolor, veritatis dolores. Lorem ipsum
-            dolor
-            sit amet consectetur adipisicing elit. Error consequatur alias beatae molestias omnis labore nisi, commodi
-            explicabo vel laborum dignissimos dolores placeat harum deleniti ex nemo asperiores autem illum. Lorem ipsum
-            dolor sit, amet consectetur adipisicing elit. Non fuga voluptatem architecto reiciendis pariatur hic laborum
-            sint labore recusandae quia! Dolorum ex minus iusto reiciendis ratione enim voluptatum adipisci id.</p>
-
-          <p class="post">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero aut modi omnis beatae, ipsam
-            ipsum ad eos
-            magni quidem quod ipsa deserunt aperiam minima aliquam animi sed, dolor, veritatis dolores. Lorem ipsum
-            dolor
-            sit amet consectetur adipisicing elit. Error consequatur alias beatae molestias omnis labore nisi, commodi
-            explicabo vel laborum dignissimos dolores placeat harum deleniti ex nemo asperiores autem illum. Lorem ipsum
-            dolor sit, amet consectetur adipisicing elit. Non fuga voluptatem architecto reiciendis pariatur hic laborum
-            sint labore recusandae quia! Dolorum ex minus iusto reiciendis ratione enim voluptatum adipisci id.</p>
-
-          <p class="post">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero aut modi omnis beatae, ipsam
-            ipsum ad eos
-            magni quidem quod ipsa deserunt aperiam minima aliquam animi sed, dolor, veritatis dolores. Lorem ipsum
-            dolor
-            sit amet consectetur adipisicing elit. Error consequatur alias beatae molestias omnis labore nisi, commodi
-            explicabo vel laborum dignissimos dolores placeat harum deleniti ex nemo asperiores autem illum. Lorem ipsum
-            dolor sit, amet consectetur adipisicing elit. Non fuga voluptatem architecto reiciendis pariatur hic laborum
-            sint labore recusandae quia! Dolorum ex minus iusto reiciendis ratione enim voluptatum adipisci id.</p>
-
-          <p class="post">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero aut modi omnis beatae, ipsam
-            ipsum ad eos
-            magni quidem quod ipsa deserunt aperiam minima aliquam animi sed, dolor, veritatis dolores. Lorem ipsum
-            dolor
-            sit amet consectetur adipisicing elit. Error consequatur alias beatae molestias omnis labore nisi, commodi
-            explicabo vel laborum dignissimos dolores placeat harum deleniti ex nemo asperiores autem illum. Lorem ipsum
-            dolor sit, amet consectetur adipisicing elit. Non fuga voluptatem architecto reiciendis pariatur hic laborum
-            sint labore recusandae quia! Dolorum ex minus iusto reiciendis ratione enim voluptatum adipisci id.</p>
-
-
-
-
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-xs-12 col-sm-6 col-md-8">
+        <div id="content">
+          <h1>Rai Lending</h1>
+          <h3>A local startup that offers financial services</h3>
+          <hr>
+          <button class="btn btn-primary btn-lg"><i class="fa fa-bank"></i> Get Started!</button>
         </div>
-        <p class="btn-start-loan"> <button>Begin Loan Application</button></p>
       </div>
+    </div>
+  </div>
 
 
-    </section>
 
-    <section id="Loan-Calculator">
-      <h2>Loan Calculator</h2>
-    </section>
 
-    <section id="Contact">
-      <h2 class="contact-title">Contact</h2>
-      <!-- Add font awesome icons -->
-      <div class="social-media">
-        <a href="#" class="fa fa-facebook">Facebook</a>
-        <a href="#" class="fa fa-twitter">Twitter</a>
-        <a href="#" class="fa fa-google">Google</a>
-        <a href="#" class="fa fa-linkedin">Linkedin</a>
-        <a href="#" class="fa fa-instagram">Instagram</a>
-      </div>
 
-      <div class="feedback-button">
-        <button class="feedback-btn">Feedback</button>
-      </div>
-    </section>
-  </main>
 
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script type='text/javascript' src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
 </body>
 
