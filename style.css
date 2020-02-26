@@ -25,10 +25,6 @@ html {
 	font-size: 5em;
 }
 
-.rai-title:last-word {
-	color: red;
-}
-
 #content > h3 {
 	color: #6e5773;
 }
@@ -45,4 +41,8 @@ hr {
 	width: 100%;
 	height: 15vw;
 	object-fit: cover;
+}
+
+#about-page {
+	background-color: sandybrown;
 }
